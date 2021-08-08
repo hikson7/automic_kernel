@@ -1,0 +1,14 @@
+{% for post in site.posts %}
+<li><a href="{{ post.url }}">{{post.title}}</a></li>
+{% endfor %}
+<br>
+{% for book in site.data.sample_data %}
+    {{ book.title }}, {{ book.author }} <br>
+{% endfor %}
+<br>
+{% for file in site.static_files %}
+{% if file.image %}
+    {{file.path}} <br>
+{% endif %}
+<!-- {{file.path}} <br> -->
+{% endfor %}

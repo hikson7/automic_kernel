@@ -1,0 +1,21 @@
+---
+layout: "wrapper"
+---
+<!-- 
+{% if page.title == "This is a new title, I'm a new title!"%}
+    This is the conditional post
+
+{% elsif page.title == " " and 1 or 1%}
+
+{% else %}
+
+{% endif %} -->
+
+{% for post in site.posts %}
+    <li><a style="{% if page.url == post.url %} color:red {% endif %}" href="{{ post.url }}"</a></li>
+{% endfor %}
+
+<h2> {{ page.title }} </h2>
+<hr>
+
+{{ content }}
