@@ -1,6 +1,6 @@
 ---
 layout: "page"
-title: "Bare-metal Programming!"
+title: "Bare-metal"
 ---
 
 OS-less :)
