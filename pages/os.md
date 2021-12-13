@@ -3,4 +3,4 @@ layout: "page"
 title: "OS"
 ---
 
-OS-ful :)
+Maybe some kernel stuff here.

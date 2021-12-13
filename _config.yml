@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Automic Bootloader
+title: Bare-metal Automics
 email: hikari.codeblog@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Bootloading is a process of loading the first program to an embedded hardware - this is a blog site hoping to share my journey as a robot developer and an embedded engineer.
+  A blog site featuring my projects, some learning contents and occasional ponders.
 
-baseurl: "/automic_bootloader" # the subpath of your site, e.g. /blog
+baseurl: "/bare-metal_automics" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 instagram_username: hikson_make
